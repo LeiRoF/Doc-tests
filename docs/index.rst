@@ -11,3 +11,4 @@ Welcome to Test docs's documentation!
    :caption: Summary
 
    test1.ipynb
+   test2.md

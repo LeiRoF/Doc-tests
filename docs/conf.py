@@ -29,6 +29,7 @@ author = 'Vincent Foriel'
 # ones.
 extensions = [
     'nbsphinx',
+    'myst_parser',
     'sphinx.ext.mathjax'
 ]
 
