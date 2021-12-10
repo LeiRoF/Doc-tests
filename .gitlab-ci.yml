@@ -3,6 +3,9 @@ compile_pdf:
   image: timnn/texlive  # use a Docker image for LaTeX from https://hub.docker.com/
   script:
     - cd report/
+    - git clone https://github.com/witiko/markdown
+    - cd markdown
+    - make base
     - pdflatex main.tex  # build the pdf just as you would on your computer
   artifacts:
     paths: 
